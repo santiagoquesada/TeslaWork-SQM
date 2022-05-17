@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/styleFormulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Sorteo Auto tesla 22</h2>
+    <p class="TextoTesla">Participa por uno de los tesla que la compañia quiere sortear, debes llenar el formulario <br>
+        con los datos solicitados y despues de enviarlos estaras participando en el sorteo.
+        <br>
+        !Mucha suerte¡
+    </p>
+            <section class="formulario">
+                <br>
+                <label for="name">Nombre:</label><br>
+                <input id="name" type="text" placeholder="Write you name"><br>
+                <label for="lastName">Apellido: * </label><br>
+                <input id="lastName" type="text" placeholder="Write you lastName" maxlength="25" minlength="8" required><br>
+                <label for="age">Edad:</label><br>
+                <input id="age" type="number" placeholder="Write you age"><br>
+                <label for="email">Coreo Electronico: *</label><br>
+                <input id="email" type="email" placeholder="Write you email" required><br>
+                <label for="password">Contraseña: *</label><br>
+                <input id="password" type="password" placeholder="Write you password" required minlength="8"><br>
+                <label for="cellphone">Telefono: *</label><br>
+                <input type="tel" id="cellphone" placeholder="Write You Cellphone" ><br>
+                <label for="date">Fecha Nacimiento: *</label><br>
+                <input type="date" id="date" placeholder="Write You Cellphone" required>
+                <br>
+                <br>
+                <div>
+                    <p>Has hecho alguna compra en tesla?</p>
+                    <input id="whatsapp" type="radio" name="connect">
+                    <label for="whatsapp">si</label>
+                    <input id="celular" type="radio" name="connect">
+                    <label for="celular">no</label>
+                </div>
+                <br>
+                 <div>
+                     <p>En cuantos sorteos has participando?</p>
+                     <input id="whatsapp" type="radio" name="connect">
+                     <label for="whatsapp">Ninguno</label>
+                     <input id="celular" type="radio" name="connect">
+                     <label for="celular"> 1 a 2</label>
+                     <input id="celular" type="radio" name="connect">
+                     <label for="celular"> mas de 3</label>
+                </div>
+                <br>
+                <select name="ciudad">
+                    <option value="Elegir">Elija su pais</option>
+                    <option value="Manizales">Colombia</option>
+                    <option value="Antioquia"> Mexico</option>
+                    <option value="Cauca">España</option>
+                    <option value="Cauca">Italia</option>
+                    <option value="Cauca">Venezuela</option>
+                    <option value="Cauca">Peru</option>
+                    <option value="Cauca">Guatemala</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                <label for="mensaje">Por que quieres ser el ganador?</label>
+                <br>
+                <textarea  id="mensaje" cols="20" rows="5"></textarea>
+                <br>
+                <input type="reset" value="borrar">
+                <input type="submit" value="enviar">
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+</body>
+</html>
